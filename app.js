@@ -3,6 +3,7 @@ const cors = require('cors')
 const { v4: uuidv4 } = require('uuid');
 const app = express();
 app.use(cors())
+require('dotenv').config()
 
 
 // Función para generar nombres aleatorios
